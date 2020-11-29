@@ -4,7 +4,7 @@
 
 大小写转换功能是兼职功能，但体验依然良好！
 
-![功能截图](https://wx2.sinaimg.cn/large/6163a293gy1gl60imf15mj218g0tstbu.jpg)
+![功能截图](screenshots/Snipaste_2020-11-29_13-27-18.png)
 
 ## 使用方法
 
