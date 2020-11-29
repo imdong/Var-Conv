@@ -4,7 +4,7 @@
     "author": "ImDong",
     "homepage": "https://www.qs5.org/?utools-var-conv",
     "version": "1.0.0",
-    "preload": "preload.js",
+    "preload": "src/preload.js",
     "logo": "logo.png",
     "features": [
         {
