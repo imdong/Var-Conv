@@ -49,7 +49,7 @@ window.exports = {
                 enterText(itemData.title)
             },
             // 子输入框为空时的占位符，默认为字符串"搜索"
-            placeholder: "转换类型 or 新变量名"
+            placeholder: "目标类型 or 新变量名"
         }
     },
     "form": {
@@ -64,7 +64,7 @@ window.exports = {
                 enterText(itemData.title)
             },
             // 子输入框为空时的占位符，默认为字符串"搜索"
-            placeholder: "转换类型 or 新变量名"
+            placeholder: "输入变量名"
         }
     },
 }
