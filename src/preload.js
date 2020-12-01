@@ -35,20 +35,38 @@ window.exports = {
         args: {
             // 进入插件时调用（可选）
             enter: (action, callbackSetList) => {
+                console.log('enter', action);
                 callbackSetList(getSetList(action.payload))
             },
             // 子输入框内容变化时被调用 可选 (未设置则无搜索)
             search: (action, searchWord, callbackSetList) => {
+                console.log('search', action, searchWord);
                 callbackSetList(getSetList(action.payload, searchWord))
+            },
+            // 用户选择列表中某个条目时被调用
+            select: (action, itemData, callbackSetList) => {
+                console.log('search', action, itemData);
+                enterText(itemData.title)
+            },
+            // 子输入框为空时的占位符，默认为字符串"搜索"
+            placeholder: "转换类型 or 新变量名"
+        }
+    },
+    "form": {
+        mode: "list",
+        args: {
+            // 子输入框内容变化时被调用 可选 (未设置则无搜索)
+            search: (action, searchWord, callbackSetList) => {
+                callbackSetList(getSetList(searchWord))
             },
             // 用户选择列表中某个条目时被调用
             select: (action, itemData, callbackSetList) => {
                 enterText(itemData.title)
             },
             // 子输入框为空时的占位符，默认为字符串"搜索"
-            placeholder: "类型"
+            placeholder: "转换类型 or 新变量名"
         }
-    }
+    },
 }
 
 function enterText(text) {

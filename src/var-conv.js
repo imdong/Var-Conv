@@ -10,10 +10,12 @@ let VarConv = function (var_name) {
             var_split = var_name.split(splitter);
         }
     });
+
     // 不行就 正则表达式 大小写拆
     if (var_split.length <= 0) {
         var_split = var_name.match(/(^|[A-Z])[a-z]+/g);
     }
+
     this.var_split = var_split.join('-').toLocaleLowerCase().split('-');
 }
 
@@ -99,6 +101,5 @@ VarConv.prototype.toSpaceUpperCamelCase = function () {
 VarConv.prototype.toSpaceCamelCase = function () {
     return this.toCamelCase(' ');
 }
-
 
 module.exports = VarConv;

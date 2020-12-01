@@ -12,12 +12,19 @@
             "explain": "变量命名方式转换",
             "icon": "logo.png",
             "cmds": [
-                "变量",
                 {
                     "type": "regex",
                     "label": "将变量名转换为",
                     "match": "/^[a-zA-Z][a-zA-Z0-9-_ ]+$/i"
                 }
+            ]
+        },
+        {
+            "code": "form",
+            "explain": "变量命名方式转换",
+            "icon": "logo.png",
+            "cmds": [
+                "变量"
             ]
         }
     ]
