@@ -3,7 +3,7 @@
     "description": "将任意写法变量名转换为任意写法变量名，另兼有大小写转换功能",
     "author": "ImDong",
     "homepage": "https://www.qs5.org/?utools-var-conv",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "preload": "src/preload.js",
     "logo": "logo.png",
     "features": [
