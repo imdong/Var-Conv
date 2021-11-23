@@ -13,9 +13,8 @@
             "icon": "logo.png",
             "cmds": [
                 {
-                    "type": "regex",
-                    "label": "将变量名转换为",
-                    "match": "/^[a-zA-Z][a-zA-Z0-9-_ ]+$/i"
+                    "type": "over",
+                    "label": "将变量名转换为"
                 }
             ]
         },
