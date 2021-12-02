@@ -3,7 +3,7 @@
     "description": "将任意写法变量名转换为任意写法变量名，另兼有大小写转换功能",
     "author": "ImDong",
     "homepage": "https://www.qs5.org/?utools-var-conv",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "preload": "src/preload.js",
     "logo": "logo.png",
     "features": [
@@ -13,9 +13,8 @@
             "icon": "logo.png",
             "cmds": [
                 {
-                    "type": "regex",
-                    "label": "将变量名转换为",
-                    "match": "/^[a-zA-Z][a-zA-Z0-9-_ ]+$/i"
+                    "type": "over",
+                    "label": "将变量名转换为"
                 }
             ]
         },
