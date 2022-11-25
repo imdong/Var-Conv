@@ -13,7 +13,7 @@ let VarConv = function (var_name) {
 
     // 不行就 正则表达式 大小写拆
     if (var_split.length <= 0) {
-        var_split = var_name.match(/(^[A-Z]|^|[A-Z])([a-z]+)?/g);
+        var_split = var_name.match(/([A-Z]?[a-z]+\d*)|([A-Z]+(?=[A-Z][a-z])\d*|[A-Z]+\d*)/g)
     }
 
     this.var_split = var_split.join('-').toLocaleLowerCase().split('-');
