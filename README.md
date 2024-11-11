@@ -28,6 +28,16 @@
 - 空格大驼峰: `+dt`、`kdt`
 - 空格小驼峰: `+xt`、`kxt`
 
+## 催更计划
+
+以下是评论区催更记录,不保证一定更新
+
+- [ ] 空格+首单词大写
+- [ ] 希望转化的快捷键可以自定义更改
+- [ ] 全大写无法转首大写
+- [ ] 我觉的应该更新一个 / 转换 这个一般路径用的也比较多 /common/admin => CommonAdmin
+
+
 ## 关于
 
 作者：青石 (ImDong)  
@@ -46,3 +56,7 @@
 ## 开源
 
 托管于 [Github](https://github.com/imdong/Var-Conv)，使用 Apache 协议开源。
+
+
+
+THIS_IS_TITLE
